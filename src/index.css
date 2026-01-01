@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* @layer components {
+  .nav-link {
+    @apply text-gray-600 hover:text-gray-900 transition;
+  }
+} */
