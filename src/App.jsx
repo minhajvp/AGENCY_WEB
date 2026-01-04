@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import Services from './Components/Services'
 import OurProjects from './Components/OurProjects'
 import WhyWe from './Components/WhyWe'
+import Process from './Components/Process'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
      <Services/>
      <OurProjects/>
      <WhyWe/>
+     <Process/>
     </>
   )
 }

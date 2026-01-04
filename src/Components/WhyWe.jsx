@@ -12,7 +12,7 @@ export default function WhyWe() {
             >
 
 
-                <div className='relative z-10 p-10 md:p-20'>
+                <div className='relative z-10 py-10 px-2 md:p-20'>
                     <div className='font-bold border-l-7 border-l-blue-600 pl-3 '>
 
                         <h4 className='text-white font-bold text-3xl mt-5 md:text-6xl'>Industries We Work With </h4>

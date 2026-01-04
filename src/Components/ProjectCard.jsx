@@ -3,7 +3,7 @@ import React from 'react'
 export default function ProjectCard() {
     return (
         <>
-            <div className="mt-2 grid grid-cols-1 gap-6 lg:grid-cols-3 items-stretch -z-9 px-20">
+            <div className="mt-2 grid grid-cols-1 gap-6 lg:grid-cols-3 items-stretch -z-9 px-5 md:px-20">
                 <div
                     className="
                                 relative p-6 rounded-xl shadow
@@ -34,7 +34,7 @@ export default function ProjectCard() {
                                 relative p-6 rounded-xl shadow
                                 h-77
                                 bg-cover bg-center bg-no-repeat
-                                flex flex-col justify-end
+                                flex flex-col justify-end 
                             "
                     style={{ backgroundImage: "url('/images/Kerala.jpg')" }}
                 >{/* bottom gradient overlay */}
