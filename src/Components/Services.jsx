@@ -1,4 +1,5 @@
 import React from 'react'
+import ServiceCard from './ServiceCard'
 
 export default function Services() {
     return (
@@ -10,21 +11,20 @@ export default function Services() {
     bg-linear-to-br from-black via-[#020617] to-[#0f341a]
   "
             >
-                {/* Glow accent */}
-                <div className="absolute -top-10 -left-10 w-72 h-72 bg-emerald-400/20 blur-3xl rounded-full" />
+                <div className="absolute  w-72 h-72 bg-emerald-400/20 blur-3xl rounded-full -z-10" />
 
-                {/* Subtle light streak */}
-                <div className="absolute inset-0 bg-linear-to-r from-emerald-500/10 to-transparent" />
-                {/* <div className='relative font-bold border-l-7 border-l-blue-600  p-20'>
+                <div className="absolute inset-0 bg-linear-to-r from-emerald-500/10 to-transparent pointer-events-none -z-10" />
 
-                    <p className='text-white font-bold text-3xl  md:text-6xl'>Our Development Services</p>
-                </div> */} 
 
-                <div className='p-10 md:p-20 '>
-                <div className='font-bold border-l-7 border-l-blue-600 pl-3 '>
+                <div className='relative z-10 p-10 md:p-20'>
+                    <div className='font-bold border-l-7 border-l-blue-600 pl-3 '>
 
-                    <p className='text-white font-bold text-3xl mt-5 md:text-6xl'>Our Development Services</p>
-                </div>
+                        <h4 className='text-white font-bold text-3xl mt-5 md:text-6xl'>Our <span className='text-blue-600'>Web Development</span> Services</h4>
+
+
+                    </div>
+                    <p className='mt-5 text-gray-300 text-2xl'>Creative Studio provides end-to-end website development solutions for businesses across India.</p>
+                    <ServiceCard />
                 </div>
 
             </section>

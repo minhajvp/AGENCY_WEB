@@ -4,7 +4,7 @@ import { useState } from "react";
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <nav className='absolute top-0 left-0 w-full z-50 backdrop-blur-sm'>
+        <nav className='sticky top-0 z-1000 backdrop-blur-sm bg-transparent'>
             {/* main container */}
             <div className="max-w-6xl mx-auto h-20 px-6 flex items-center justify-between
                 text-white">
